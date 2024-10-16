@@ -1,3 +1,10 @@
+import CreateUserButton from "./components/createUserButton";
+
 export default function Home() {
-  return <main>Hey</main>;
+  return (
+    <main>
+      <h1>Hey</h1>
+      <CreateUserButton />
+    </main>
+  );
 }
