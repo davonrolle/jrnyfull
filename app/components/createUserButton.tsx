@@ -19,8 +19,8 @@ const CreateUserButton = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          name: 'John Doe',
-          email: 'john.doe@example.com',
+          name: 'John FlDoe',
+          email: 'john.doe@gmail.com',
           password: 'password123', // Remember to hash passwords in real applications!
         }),
       });
